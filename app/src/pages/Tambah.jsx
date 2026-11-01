@@ -42,9 +42,9 @@ export default function Tambah() {
 
       <label htmlFor="status">Status</label>
       <select id="status" name="status" value={form.status} onChange={ubah}>
-        <option value="rendah">Dimiliki</option>
-        <option value="sedang">Sedang Dibaca</option>
-        <option value="tinggi">Ingin Dibeli</option>
+        <option value="Dimiliki">Dimiliki</option>
+        <option value="Sedang Dibaca">Sedang Dibaca</option>
+        <option value="Ingin Dibeli">Ingin Dibeli</option>
       </select>
 
       <button type="submit">Simpan</button>
