@@ -1,7 +1,7 @@
 
 # RakBaca
 
-- Nama: Jundi Lamtara
+- Nama: JUNDI LAMTARA
 - NIM: 124140190
 - Kelas: RB
 - Tema: Rak Buku Pribadi
