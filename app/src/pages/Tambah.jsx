@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom'
 import useKoleksi from '../hooks/useKoleksi.js'
 import './Tambah.css'
 
-const AWAL = { judul: '', kategori: 'Kuliah', tenggat: '', prioritas: 'sedang' }
+const AWAL = { judul: '', kategori: '', penulis: '', tahunTerbit: '', status: 'Dimiliki' }
 
 export default function Tambah() {
   const { tambah } = useKoleksi()
@@ -25,26 +25,26 @@ export default function Tambah() {
 
   return (
     <form className="formulir" onSubmit={simpan} noValidate>
-      <h1>Tambah Tugas</h1>
+      <h1>Tambah Koleksi Buku</h1>
 
       <label htmlFor="judul">Judul</label>
-      <input id="judul" name="judul" value={form.judul} onChange={ubah} />
+      <input id="judul" name="judul" value={form.judul} onChange={ubah} placeholder="Masukkan judul"/>
       {galat && <p role="alert">{galat}</p>}
 
       <label htmlFor="kategori">Kategori</label>
-      <select id="kategori" name="kategori" value={form.kategori} onChange={ubah}>
-        <option>Kuliah</option>
-        <option>Organisasi</option>
-      </select>
+      <input id="kategori" name="kategori" value={form.kategori} onChange={ubah} placeholder="Masukkan kategori"/>
 
-      <label htmlFor="tenggat">Tenggat</label>
-      <input id="tenggat" name="tenggat" type="date" value={form.tenggat} onChange={ubah} />
+      <label htmlFor="penulis">Penulis</label>
+      <input id="penulis" name="penulis" value={form.penulis} onChange={ubah} placeholder="Masukkan penulis"/>
 
-      <label htmlFor="prioritas">Prioritas</label>
-      <select id="prioritas" name="prioritas" value={form.prioritas} onChange={ubah}>
-        <option value="rendah">Rendah</option>
-        <option value="sedang">Sedang</option>
-        <option value="tinggi">Tinggi</option>
+      <label htmlFor="tahunTerbit">Tahun Terbit</label>
+      <input id="tahunTerbit" name="tahunTerbit" type="date" value={form.tahunTerbit} onChange={ubah} />
+
+      <label htmlFor="status">Status</label>
+      <select id="status" name="status" value={form.status} onChange={ubah}>
+        <option value="rendah">Dimiliki</option>
+        <option value="sedang">Sedang Dibaca</option>
+        <option value="tinggi">Ingin Dibeli</option>
       </select>
 
       <button type="submit">Simpan</button>
