@@ -34,6 +34,19 @@
   color: black;
 }
 
+#link {
+  color: black;
+}
+
+#link:hover,
+#link:focus {
+  color: rgb(43, 156, 226);
+}
+
+#link:active {
+  color: #3b3d3f;
+}
+
 body {
   margin: 0;
 }
