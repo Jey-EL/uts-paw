@@ -1,10 +1,82 @@
 [
   {
     "id": "1",
-    "judul": "Contoh item pertama",
-    "kategori": "Contoh",
-    "fieldTema1": "ganti sesuai field tema",
-    "fieldTema2": 0,
-    "fieldTema3": "ganti sesuai field tema"
+    "judul": "Atomic Habits",
+    "kategori": "Pengembangan Diri",
+    "penulis": "James Clear",
+    "tahunTerbit": 2018,
+    "status": "Sedang Dibaca"
+  },
+  {
+    "id": "2",
+    "judul": "Harry Potter and the Philosopher's Stone",
+    "kategori": "Novel",
+    "penulis": "J. K. Rowling",
+    "tahunTerbit": 1997,
+    "status": "Dimiliki"
+  },
+  {
+    "id": "3",
+    "judul": "Bumi",
+    "kategori": "Novel",
+    "penulis": "Tere Liye",
+    "tahunTerbit": 2014,
+    "status": "Dimiliki"
+  },
+  {
+    "id": "4",
+    "judul": "Bulan",
+    "kategori": "Novel",
+    "penulis": "Tere Liye",
+    "tahunTerbit": 2015,
+    "status": "Ingin Dibeli"
+  },
+  {
+    "id": "5",
+    "judul": "Matahari",
+    "kategori": "Novel",
+    "penulis": "Tere Liye",
+    "tahunTerbit": 2016,
+    "status": "Ingin Dibeli"
+  },
+  {
+    "id": "6",
+    "judul": "Bintang",
+    "kategori": "Novel",
+    "penulis": "Tere Liye",
+    "tahunTerbit": 2017,
+    "status": "Ingin Dibeli"
+  },
+  {
+    "id": "7",
+    "judul": "Ceros dan Batozar",
+    "kategori": "Novel",
+    "penulis": "Tere Liye",
+    "tahunTerbit": 2018,
+    "status": "Ingin Dibeli"
+  },
+  {
+    "id": "8",
+    "judul": "The Psychology of Money",
+    "kategori": "Keuangan",
+    "penulis": "Morgan Housel",
+    "tahunTerbit": 2020,
+    "status": "Dimiliki"
+  },
+  {
+    "id": "9",
+    "judul": "Start with Why",
+    "kategori": "Bisnis",
+    "penulis": "Simon Sinek",
+    "tahunTerbit": 2009,
+    "status": "Ingin Dibeli"
+  },
+  {
+    "id": "10",
+    "judul": "The 48 Laws of Power",
+    "kategori": "Strategi",
+    "penulis": "Robert Greene",
+    "tahunTerbit": 1998,
+    "status": "Dimiliki"
   }
 ]
