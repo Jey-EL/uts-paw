@@ -9,7 +9,7 @@ export default function Tentang() {
   return (
     <section>
       <h1>Tentang Saya</h1>
-      <div className="konten">
+      <div id="konten">
         <figure>
           <img src="../fotoku.jpg" alt="Foto Jundi Lamtara" width="250px" height="auto" />
         </figure>
