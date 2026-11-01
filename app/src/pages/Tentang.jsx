@@ -11,7 +11,7 @@ export default function Tentang() {
       <h1>Tentang Saya</h1>
       <div id="konten">
         <figure>
-          <img src="../fotoku.jpg" alt="Foto Jundi Lamtara" width="250px" height="auto" />
+          <img src="/fotoku.jpg" alt="Foto Jundi Lamtara" width="250px" height="auto" />
         </figure>
         <dl>
            <dt>Nama</dt>
