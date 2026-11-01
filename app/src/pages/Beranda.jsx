@@ -11,17 +11,16 @@ export default function Beranda() {
 
   return (
     <section>
-      <p>{mahasiswa.tema}</p>
-      <h1>Selamat Datang</h1>
-      <p>Simpan dan kelola buku yang kamu baca</p>
-      <Link to="/koleksi">Lihat Koleksi</Link>
+      <h1 id="judul">Selamat Datang</h1>
+      <p>Simpan dan kelola buku yang kamu baca pada {mahasiswa.tema} di sini</p>
+      <Link id="btn" to="/koleksi">Lihat Koleksi</Link>
       {loading ? (
         <p>Memuat ringkasan...</p>
       ) : (
         <table>
           <tbody>
             <tr>
-              <td><JumlahBuku jumlah={items.length}/></td>
+              <td id="tabel-jumlah-buku"><JumlahBuku jumlah={items.length}/></td>
               <td><JumlahKategori jumlah={jumlahKategori}/></td>
             </tr>
           </tbody>

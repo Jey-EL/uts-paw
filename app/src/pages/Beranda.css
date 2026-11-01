@@ -2,8 +2,6 @@ table {
   margin-top: 20px;
 }
 
-th,
-td {
-  padding-right: 100px;
-  text-align: left;
+#tabel-jumlah-buku {
+  padding-right: 150px;
 }
